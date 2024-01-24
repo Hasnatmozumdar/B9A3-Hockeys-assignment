@@ -177,7 +177,7 @@
         </div>
         <!-- product section-->
         <section">
-            <div class="">
+            <div class="flex-col lg:flex-row -translate-x-28">
                 <div class="items-center justify-items-center flex pr-8 pl-32 sm:grid-cols-1 grid-cols-2 gap-8">
                     <div class="relative card card-side">
                         <figure><img class="w-40 rounded-xl" src="Images/5.png" alt="Movie" /></figure>
@@ -411,22 +411,45 @@
                         placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
 
-                <div class="flex space-y-2 pr-8 px-32 sm:grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="flex space-y-2 pr-8 px-32 flex-col lg:flex-row gap-8">
                     <div>
                         <img class="w-96" src="Images/11.png" alt="">
                     </div>
 
-                    <div class="px-10 w-96">
+                    <div class="bg-white translate-x-20">
                         <h3 class="text-xl font-bold mb-6">Our Equipment</h3>
                         <p class="text-[#13131899] mb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
                             elit enim sagittis turpis in magna.</p>
-                        <ul class="text-xl font-bold">
-                            <li class="mb-6">Hockey Training</li>
-                            <li class="mb-6">Private Lessons</li>
-                            <li class="mb-6">Ski Touring</li>
-                            <li class="mb-6">Booking</li>
-                            <li class="mb-6">Pricings</li>
-                        </ul>
+                        <div class="collapse collapse-plus bg-base-200">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-bold">
+                                Hockey Training
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-bold">
+                                Private Lessons
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-bold">
+                                Ski Touring
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-bold">
+                                Booking
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-bold">
+                                Pricings
+                            </div>
+                        </div>
                     </div>
                 </div>
 
